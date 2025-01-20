@@ -6,17 +6,62 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFC0959F2D3DFDCB0093402B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC095992D3DFDCB0093402B /* Preview Assets.xcassets */; };
+		BFC095A02D3DFDCB0093402B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC0959C2D3DFDCB0093402B /* Assets.xcassets */; };
+		BFC095A12D3DFDCB0093402B /* AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0959B2D3DFDCB0093402B /* AlarmApp.swift */; };
+		BFC095A22D3DFDCB0093402B /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0959D2D3DFDCB0093402B /* MainAlarmView.swift */; };
+		BFC095B02D3E01430093402B /* GrayTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095AF2D3E01430093402B /* GrayTextView.swift */; };
+		BFC095B32D3E033F0093402B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC095B12D3E033F0093402B /* Localizable.strings */; };
+		BFC095B92D3E08C10093402B /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095B82D3E08C10093402B /* ColorConstants.swift */; };
+		BFC095BB2D3E09620093402B /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095BA2D3E09620093402B /* TimeOfDayIcon.swift */; };
+		BFC095BD2D3E0A3E0093402B /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095BC2D3E0A3E0093402B /* TimeAndDateSupport.swift */; };
+		BFC095BF2D3E17A50093402B /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095BE2D3E17A50093402B /* TimeModel.swift */; };
+		BFC095CA2D3E1CEA0093402B /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095C92D3E1CEA0093402B /* AlarmModel.swift */; };
+		BFC095CC2D3E1F680093402B /* ActivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095CB2D3E1F680093402B /* ActivityConstants.swift */; };
+		BFC095CE2D3E1FDF0093402B /* SoundConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095CD2D3E1FDF0093402B /* SoundConstants.swift */; };
+		BFC095D02D3E22950093402B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095CF2D3E22950093402B /* SplashScreenView.swift */; };
+		BFC095D22D3E24A50093402B /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095D12D3E24A50093402B /* FourCoolCircles.swift */; };
+		BFC095D42D3E2B5E0093402B /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095D32D3E2B5E0093402B /* CoolTextView.swift */; };
+		BFC095D72D3E2B9C0093402B /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFC095D52D3E2B9C0093402B /* WorkSans-Italic-VariableFont_wght.ttf */; };
+		BFC095D82D3E2B9C0093402B /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFC095D62D3E2B9C0093402B /* WorkSans-VariableFont_wght.ttf */; };
+		BFC095DA2D3E2E730093402B /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095D92D3E2E730093402B /* ImageConstants.swift */; };
+		BFC095DC2D3E300D0093402B /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095DB2D3E300D0093402B /* EnableNotifications.swift */; };
+		BFC095DE2D3E31710093402B /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095DD2D3E31710093402B /* MainGradient.swift */; };
+		BFC095E02D3E32860093402B /* ScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095DF2D3E32860093402B /* ScreenConstants.swift */; };
+		BFC095E22D3E33FD0093402B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095E12D3E33FD0093402B /* ButtonView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BFC095882D3DFDB60093402B /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC095992D3DFDCB0093402B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFC0959B2D3DFDCB0093402B /* AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmApp.swift; sourceTree = "<group>"; };
+		BFC0959C2D3DFDCB0093402B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC0959D2D3DFDCB0093402B /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
+		BFC095AF2D3E01430093402B /* GrayTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayTextView.swift; sourceTree = "<group>"; };
+		BFC095B22D3E033F0093402B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC095B42D3E03BD0093402B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC095B52D3E03BF0093402B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC095B62D3E03C00093402B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC095B72D3E03C20093402B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC095B82D3E08C10093402B /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		BFC095BA2D3E09620093402B /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
+		BFC095BC2D3E0A3E0093402B /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
+		BFC095BE2D3E17A50093402B /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		BFC095C92D3E1CEA0093402B /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		BFC095CB2D3E1F680093402B /* ActivityConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityConstants.swift; sourceTree = "<group>"; };
+		BFC095CD2D3E1FDF0093402B /* SoundConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundConstants.swift; sourceTree = "<group>"; };
+		BFC095CF2D3E22950093402B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BFC095D12D3E24A50093402B /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
+		BFC095D32D3E2B5E0093402B /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
+		BFC095D52D3E2B9C0093402B /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		BFC095D62D3E2B9C0093402B /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		BFC095D92D3E2E730093402B /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		BFC095DB2D3E300D0093402B /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
+		BFC095DD2D3E31710093402B /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
+		BFC095DF2D3E32860093402B /* ScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConstants.swift; sourceTree = "<group>"; };
+		BFC095E12D3E33FD0093402B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BFC0958A2D3DFDB60093402B /* Alarm */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Alarm;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFC095852D3DFDB60093402B /* Frameworks */ = {
@@ -32,7 +77,7 @@
 		BFC0957F2D3DFDB60093402B = {
 			isa = PBXGroup;
 			children = (
-				BFC0958A2D3DFDB60093402B /* Alarm */,
+				BFC0959E2D3DFDCB0093402B /* Alarm */,
 				BFC095892D3DFDB60093402B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +88,140 @@
 				BFC095882D3DFDB60093402B /* Alarm.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC0959A2D3DFDCB0093402B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095992D3DFDCB0093402B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFC0959E2D3DFDCB0093402B /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0959B2D3DFDCB0093402B /* AlarmApp.swift */,
+				BFC095AA2D3E007F0093402B /* Model */,
+				BFC095A92D3E00760093402B /* ViewModel */,
+				BFC095A82D3E00700093402B /* View */,
+				BFC095A72D3E00650093402B /* Constant */,
+				BFC095A62D3E00600093402B /* Font */,
+				BFC095A52D3E00520093402B /* Time and Date */,
+				BFC095A42D3E00440093402B /* Local Notification */,
+				BFC095A32D3E003D0093402B /* Sound */,
+				BFC0959C2D3DFDCB0093402B /* Assets.xcassets */,
+				BFC0959A2D3DFDCB0093402B /* Preview Content */,
+				BFC095B12D3E033F0093402B /* Localizable.strings */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		BFC095A32D3E003D0093402B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095CD2D3E1FDF0093402B /* SoundConstants.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		BFC095A42D3E00440093402B /* Local Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Notification";
+			sourceTree = "<group>";
+		};
+		BFC095A52D3E00520093402B /* Time and Date */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095BC2D3E0A3E0093402B /* TimeAndDateSupport.swift */,
+			);
+			path = "Time and Date";
+			sourceTree = "<group>";
+		};
+		BFC095A62D3E00600093402B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095D52D3E2B9C0093402B /* WorkSans-Italic-VariableFont_wght.ttf */,
+				BFC095D62D3E2B9C0093402B /* WorkSans-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BFC095A72D3E00650093402B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095B82D3E08C10093402B /* ColorConstants.swift */,
+				BFC095CB2D3E1F680093402B /* ActivityConstants.swift */,
+				BFC095D92D3E2E730093402B /* ImageConstants.swift */,
+				BFC095DF2D3E32860093402B /* ScreenConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		BFC095A82D3E00700093402B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095AE2D3E010D0093402B /* UnuseView */,
+				BFC095AD2D3E01030093402B /* SupportingView */,
+				BFC095AC2D3E00F50093402B /* SubView */,
+				BFC095AB2D3E00E80093402B /* MainView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFC095A92D3E00760093402B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFC095AA2D3E007F0093402B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095BE2D3E17A50093402B /* TimeModel.swift */,
+				BFC095C92D3E1CEA0093402B /* AlarmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFC095AB2D3E00E80093402B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0959D2D3DFDCB0093402B /* MainAlarmView.swift */,
+				BFC095CF2D3E22950093402B /* SplashScreenView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		BFC095AC2D3E00F50093402B /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095DB2D3E300D0093402B /* EnableNotifications.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		BFC095AD2D3E01030093402B /* SupportingView */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095AF2D3E01430093402B /* GrayTextView.swift */,
+				BFC095BA2D3E09620093402B /* TimeOfDayIcon.swift */,
+				BFC095D12D3E24A50093402B /* FourCoolCircles.swift */,
+				BFC095D32D3E2B5E0093402B /* CoolTextView.swift */,
+				BFC095DD2D3E31710093402B /* MainGradient.swift */,
+				BFC095E12D3E33FD0093402B /* ButtonView.swift */,
+			);
+			path = SupportingView;
+			sourceTree = "<group>";
+		};
+		BFC095AE2D3E010D0093402B /* UnuseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnuseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +238,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BFC0958A2D3DFDB60093402B /* Alarm */,
 			);
 			name = Alarm;
 			packageProductDependencies = (
@@ -91,6 +267,10 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				it,
+				es,
+				de,
 			);
 			mainGroup = BFC0957F2D3DFDB60093402B;
 			minimizedProjectReferenceProxies = 1;
@@ -109,6 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC095D72D3E2B9C0093402B /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
+				BFC095D82D3E2B9C0093402B /* WorkSans-VariableFont_wght.ttf in Resources */,
+				BFC0959F2D3DFDCB0093402B /* Preview Assets.xcassets in Resources */,
+				BFC095B32D3E033F0093402B /* Localizable.strings in Resources */,
+				BFC095A02D3DFDCB0093402B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,10 +304,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC095DE2D3E31710093402B /* MainGradient.swift in Sources */,
+				BFC095B92D3E08C10093402B /* ColorConstants.swift in Sources */,
+				BFC095CA2D3E1CEA0093402B /* AlarmModel.swift in Sources */,
+				BFC095A12D3DFDCB0093402B /* AlarmApp.swift in Sources */,
+				BFC095CE2D3E1FDF0093402B /* SoundConstants.swift in Sources */,
+				BFC095D02D3E22950093402B /* SplashScreenView.swift in Sources */,
+				BFC095BD2D3E0A3E0093402B /* TimeAndDateSupport.swift in Sources */,
+				BFC095CC2D3E1F680093402B /* ActivityConstants.swift in Sources */,
+				BFC095E22D3E33FD0093402B /* ButtonView.swift in Sources */,
+				BFC095DA2D3E2E730093402B /* ImageConstants.swift in Sources */,
+				BFC095E02D3E32860093402B /* ScreenConstants.swift in Sources */,
+				BFC095BF2D3E17A50093402B /* TimeModel.swift in Sources */,
+				BFC095D42D3E2B5E0093402B /* CoolTextView.swift in Sources */,
+				BFC095A22D3DFDCB0093402B /* MainAlarmView.swift in Sources */,
+				BFC095DC2D3E300D0093402B /* EnableNotifications.swift in Sources */,
+				BFC095B02D3E01430093402B /* GrayTextView.swift in Sources */,
+				BFC095D22D3E24A50093402B /* FourCoolCircles.swift in Sources */,
+				BFC095BB2D3E09620093402B /* TimeOfDayIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFC095B12D3E033F0093402B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC095B22D3E033F0093402B /* en */,
+				BFC095B42D3E03BD0093402B /* fr */,
+				BFC095B52D3E03BF0093402B /* de */,
+				BFC095B62D3E03C00093402B /* it */,
+				BFC095B72D3E03C20093402B /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFC095942D3DFDB80093402B /* Debug */ = {
